@@ -91,9 +91,6 @@
         height: 438.3px;
         width: 628.2px;
     }
-    .profile_pic {
-        width: 30.6%
-    }
 }
 
 .small_img {
@@ -203,7 +200,7 @@ td {
 
 .profile_pic {
     height: 100%;
-    width: 43%;
+    width: 410px;
     display: -webkit-flex;
     -webkit-justify-content: flex-start;
     padding-right: 20px;
@@ -318,10 +315,11 @@ i {
     position: absolute;
     top: 15px;
     right: 35px;
-    color: #f1f1f1;
+    color:white;
     font-size: 40px;
     font-weight: bold;
     transition: 0.3s;
+    
 }
   
 .close:hover,
@@ -403,5 +401,9 @@ i {
 
 #main {
     width: 70%;
+}
+
+@mixin transition() {
+    transition: all .4s cubic-bezier(.215,.61,.355,1);
 }
 
