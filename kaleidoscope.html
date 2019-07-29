@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kaleidoscope</title>
+    <link rel="stylesheet" href="hapac.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Anton|Dancing+Script|Lobster|Pacifico|Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.0/processing.min.js"></script>
+    <style>
+        h1 {
+            color: teal;
+            font-family: 'Pacifico', cursive;
+            font-weight: bolder;
+        }      
+    </style>
+</head>
+<body class="full">
+    <div class="bg_default">
+        <div class="bg_img"></div>
+        <div id="navbar">
+            <div class="navigator" id="home"><a href="index.html"><img id="logo" src="https://i.imgur.com/yeY6XLm.png"></a></div>
+            <div class="navigator" id="kaleidoscope"><a href="kaleidoscope.html">Kaleidoscope</a></div>
+            <div class="navigator" id="other"><a href="other.html">Các sự kiện khác</a></div>
+            <div class="navigator" id="news"><a href="news1.html">Tin tức khoa học</a></div>
+            <div class="navigator" id="FAQs"><a href="faqs.html">FAQs</a></div>
+            <div class="navigator" id="hof"><a href="hall_of_fame.html">Hall of Fame</a></div>
+        </div>
+        <div class="padtop_70px"></div>
+        <div class="container display_container" style="width: 100%;">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="https://i.imgur.com/jpZ05Lm.png" style="width:100%;">
+                    </div>
+            
+                    <div class="item">
+                        <img src="https://i.imgur.com/WPVkVbx.png" style="width:100%;">
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <div class="display_container" style="display: flex;">
+            <div id="main">
+                <div style="padding-left: 20px;">
+                    <h1>1. Tổng quan về Kaleidoscope</h1>
+                    <div class="brief">     Kaleidoscope là một hội chợ khoa học toàn diện, gồm nhiều phân môn khác nhau: Vật Lý, Hóa học, Sinh học, và Thiên Văn. 
+                        Kaleidoscope thường được tổ chức trong khoảng thời gian từ đầu tháng 3 cho tới đầu tháng 5.
+                        Trong một ngày không xa, Kaleidoscope sẽ có thêm một chuyên môn mới mang tên Khoa Học Máy Tính, hứa hẹn sẽ vô cùng thú vị và hấp dẫn</div>
+                    <h1>2. Sự ra đời của Kaleidoscope</h1>
+                    <div class="brief">     Ngày nhỏ, khi còn là một đứa trẻ chẳng ham thích gì ngoài ăn và chơi thì với tớ, kính vạn hoa là một món đồ kì quặc. Khi nhìn vào cái kính đó, tớ sẽ thấy những viên đá sặc sỡ, mà nếu lỡ như lần nào đó tớ mải mê xoay kính hơi quá đà thì, cha mẹ ơi, chóng mặt tới nôn mửa.
+                    Thế mà cũng đã chẳng mấy lần tớ vì mải miết đuổi theo những viên đá rực rỡ đấy mà vẹo cả cổ và cứng cả bàn tay.    
+                    Lớn hơn một tí, khi đống đồ chơi bao gồm cả cái kính kì dị và thú vị ấy dần lui vào nơi xó xỉnh, tớ nhận ra tớ đang bị cuốn vào vòng xoáy vô tận giữa của sự nhàm chán trong cuộc sống. Ấy cũng là lúc tớ bắt gặp câu nói này: "Life is a kaleidoscope. Turn your head a different angle and see it a whole new way."
+                    Và thế là Kaleidoscope ra đời. Không chỉ đơn thuần là một hội chợ khoa học, Kaleidoscope còn là một mong muốn hết sức to lớn của chúng tớ. Mong muốn truyền ngọn lửa đam mê khoa học, và hơn hết, thay đổi cách nhìn với cuộc sống xung quanh chúng ta. Chẳng phải từ lâu rồi sao, chúng ta vẫn nghe mọi người nói rằng: "Khoa học chính là cuộc sống."?
+                    </div>
+                    <div class="brief">Các bạn có muốn một "Kaleidoscope" của riêng mình không? Cùng xem video dưới đây nhé</div>
+                    <div><center><iframe class="img_content" src="https://www.youtube.com/embed/us_xOqSixt0?controls=1"></iframe></center></div>
+                    <h1>3. Hoạt động chính</h1>
+                    <div class="brief">     Mỗi năm, Kaleidoscope có một chủ đề riêng, nhằm duy trì sự phong phú, đa dạng, và mới lạ của dự án. Năm 2018, chủ đề của Kaleidoscope là <b>Voyage</b>, với mong ước rằng con tàu Kalei sẽ đưa các bạn trẻ tới khám phá những vùng đất mới. Năm 2019, chủ đề là <b>Youth</b>, thể hiện sức sống mãnh liệt và sự nhiệt huyết của tuổi trẻ.
+                        Tuy nhiên, dự án luôn có 2 phần chính:</div>
+                    <div class="brief">- Tiền sự kiện: Đây là một sự kiện nhỏ diễn ra trước sự kiện chính, nhằm thu hút được thêm nhiều người đến với hội chợ.</div>
+                    <div class="brief">- Sự kiện chính: Đến với sự kiện chính, các bạn sẽ được trải nghiệm, tương tác trong môi trường chơi-có-học với những mô hình ứng dụng vật lý như gương "vô cực", xe điện bluetooth, những thí nghiệm hóa học bắt mắt, hay những mô hinh sinh học chân thực. 
+                    Đảm bảo rằng các bạn sẽ thấy khoa học không hề nhàm chán, khô khan tí nào!
+                    </div>
+                    <div><center><img class="img_content" src="https://i.imgur.com/ZfSadWB.png"></img></center></div>
+                    <div class="brief"><center>Lắng nghe luật lệ cuộc đua Tik Tok</center></div>
+                    <div><center><img class="img_content" src="https://i.imgur.com/vcvy0JF.png"></img></center></div>
+                    <div class="brief"><center>Teamwork giải mã câu đố</center></div>
+                    <div><center><img class="img_content" src="https://i.imgur.com/mmkHHwT.png"></img></center></div>
+                    <div><center><img class="img_content" src="https://i.imgur.com/xg9Uu9x.png"></img></center></div>
+                    <div class="brief"><center>Chăm chú quan sát mô hình</center></div>
+                    <div><center><img class="img_content" src="https://i.imgur.com/JdVPX6u.png"></img></center></div>
+                    <div class="brief"><center>Tương tác cực mạnh =))))</center></div>
+                    <div><center><img class="img_content" src="https://i.imgur.com/Li51O10.png"></img></center></div>
+                    <div><center><img class="img_content" src="https://i.imgur.com/1B4A8KM.png"></img></center></div>
+                    <div class="brief"><center>Bán bánh gây quỹ tiền sự kiện Rhythm</center></div>
+                    <div><center><img class="img_content" src="https://i.imgur.com/FNi5Xrp.png"></img></center></div>
+                    <div class="brief"><center>Tiền sự kiện vô cùng thành công</center></div>
+                    <div><center><img class="img_content" src="https://i.imgur.com/G8Kj7c7.png"></img></center></div>
+                    <div><center><img class="img_content" src="https://i.imgur.com/Eip8Icd.png"></img></center></div>
+                    <div class="brief"><center>Gương vô cực cực chất</center></div>
+                    <div><center><img class="img_content" src="https://i.imgur.com/J1qgPia.png"></img></center></div>
+                    <div class="brief"><center>Một Kalei đáng nhớ</center></div>
+                </div>
+            </div>
+            <div class="display_container" id="experiment" style="position: static;">
+                <script type="application/processing">
+                    void setup() {
+                        size(375, 250);
+                    };
+                    stroke(0,0,0);
+                    var groundX = -35;
+                    var groundY = 52.5;
+                    var re = 255;
+                    var gr = 0;
+                    var bl = 200;
+                    
+                    function kmno4_container(){
+                        k = [
+                            line(groundX - 8, groundY - 105, groundX, groundY - 97),
+                            line(groundX, groundY - 97, groundX, groundY),
+                            line(groundX, groundY, groundX + 70, groundY),
+                            line(groundX + 70, groundY, groundX + 70, groundY - 105)
+                        ];   
+                    }
+                    
+                    function naoh_container() {
+                        n = [
+                            line(60, 60, 60, 120),
+                            line(60, 120, 30, 195),
+                            line(30, 195, 120, 195),
+                            line(120, 195, 90, 120),
+                            line(90, 120, 90, 60)
+                        ];                        
+                        fill(255,255,255);
+                        quad(40, 170, 30, 195, 120, 195, 110, 170);
+                    }
+
+                    void mousePressed() {
+                        if(groundY === -23.5){
+                            if(re > 39 && bl > 139){
+                                re -= 54;
+                                gr += 44.75;
+                                bl -= 15.25;
+                            }
+                            else if(re <= 39 && re > 11){
+                                re -= 7;
+                                gr -= 17.75;
+                            }
+                            else if(re >= 11 && bl > 88){
+                                re += 58.5;
+                                gr += 16.25;
+                                bl -= 12.75;
+                            }
+                        }
+                    };
+
+                    void draw() {
+                        background(255,255,255);
+                        var initial = 0;
+                        if(groundY === -23.5){
+                            var end = 0;
+                            text("Bấm để đổi \nmàu dung dịch", 260, 50);
+                            if(re > 39 && bl > 139){
+                                text("Màu của Mn 7+", 36, 218);
+                            }
+                            else if(re <= 39 && re > 11){
+                                text("Màu của Mn 6+", 36, 218);
+                            }
+                            else if(re >= 11 && bl > 88){
+                                text("Màu của Mn 5+", 36, 218);
+                            }
+                            else if(re === 245 && bl === 88){
+                                text("Màu của Mn 4+", 36, 218);
+                                end = 1;
+                                text("Giải thích: Mn 7+ \nbị khử dần dần \nvề Mn 4+, dẫn đến \nsự đổi màu như bên. \nĐây gọi là thí \nnghiệm tắc kè hoa.", 260, 100);
+                            }
+                        }
+                        if(mousePressed){
+                            initial = 1;
+                            if(groundY > -22.5){
+                                text("Giữ chuột cho đến \nkhi dd KMnO4 xoay", 260, 100);
+                            }
+                        }
+                        if(initial === 0){
+                            if(groundY === 52.5){
+                                textSize(12); 
+                                text("Ta có dd NaOH + đường", 11, 218);
+                                text("Ta có dd KMnO4", 176, 218);
+                                textSize(16);
+                                text("Bấm vào để thấy điều kì diệu", 25, 240);
+                            }
+                        }
+                        naoh_container(); 
+                        translate(220, 142.5);
+                        kmno4_container();
+                        fill(re, gr, bl);
+                        rect(groundX, groundY - 45, 70, 45);
+                        if(mousePressed) {
+                            if(groundY > -22.5){   
+                                groundY -=2;
+                            }
+                        }
+                        translate(0, -57);
+                        if(groundY === -23.5){
+                            noStroke();
+                            fill(255,255,255);
+                            rect(groundX - 15, groundY - 45.5, 90, 105);
+                            rotate(-PI/3);  
+                            stroke(0,0,0);
+                            kmno4_container();
+                            fill(255, 0, 200);
+                            triangle(groundX, groundY - 85.5, groundX, groundY + 1, groundX + 50, groundY + 1)
+                            rotate(PI/3);
+                            translate(-220, -85.5);
+                            fill(re, gr, bl);
+                            quad(60, 120, 30, 195, 120, 195, 90, 120);      
+                        }
+                    };
+                </script>
+                <canvas></canvas>
+            </div>
+        </div>
+        <div id="contact">
+            <div id="info">
+                <div>
+                    <p style="margin-left: 40px;"><u>CONTACT INFO</u></p>
+                    <p><i class="fas fa-mobile-alt" style="padding-right: 15px;"></i>Số điện thoại: 0384825323  (Nguyễn Anh Tú)</p>
+                    <p><i class="fas fa-envelope-square" style="padding-right: 11px;"></i>Email: hapac.hsc@gmail.com</p>
+                    <p><i class="fas fa-globe-asia" style="padding-right: 10px;"></i>Youtube: <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2Fuser%2FHAPAClub%2Fvideos%3Fflow%3Dgrid%26view%3D0%26fbclid%3DIwAR28doF4TjwuOBCADGYz8n139CiGNyCZkHZo4AUEtucYOxSJhgfVeKNriT4&h=AT2AMizof8xLLiusVPKcFFJRdzzhnuf4Htw8xahc1Hl_Wd82NBqd4L2mq-mz--uqmN98m-3d___dlq1VDS_CSdfrmYbc1wp5dcPlKgISlRtIS6P4JnDv4uD1xacpMGEBymwafeQnZrERW5cG6LgQEK1T2EYIHK0-awHk61d0b9ud4yOqsdZ-HGYuaAOxbnCh0gH-036wgnzR7j7ye7DarzfaQIPl1Z_BVJRf21wlUgMpbdog9lRSDpkt6pO_Cn9zNqteTPrdDXTZiDBxgeXt-eEOUzjiY3LSX2WmV4SjGBRhdBQowrpvwgKo8K8Rxab-jCClLAdYiAUzsXc1JxrzemheOjkM79W_ftIBud0J7iRBXbKKbixkITsH3NiK1QtEGxoVkwYPK8L2Q1wKIc2cdif09yfYCRoDGvqt1Bfa5cHa3n8gkhvg4IG5CfoHPmY4rRFpLo9lrE1B7CC91t739ILLjd-9CfY4yqBgOg" target="_blank"> Hapac Hsc</a></p>
+                    <p><i class="fab fa-facebook-f" style="padding-right: 17px;"></i>Facebook: <a href="https://www.facebook.com/pg/HapacAtoms/about/?ref=page_internal" target="_blank">HSGS Applied Physics & Astronomy Club - HAPAC</a></p>
+                    <p><i class="fas fa-map-marker-alt" style="padding-right: 13px;"></i>Địa chỉ: 182 Lương Thế Vinh, Thanh Xuân, Hà Nội</p>
+                </div> 
+                <div><img id="photo" src="https://i.imgur.com/OVuHop4.png"></div>
+            </div>  
+        </div>
+    </div>
+    
+</body>
+<script src="experiment.js"></script>
+</html>
